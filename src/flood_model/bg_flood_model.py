@@ -472,7 +472,7 @@ def run_bg_flood_model(
         gpu_device=gpu_device,
         small_nc=small_nc)
 
-    # Get the current working directory (cwd)
+    # Get the current working directory (cwd) haha
     cwd = pathlib.Path.cwd()
     # Change the current working directory to the BG-Flood Model directory
     os.chdir(bg_flood_dir)
