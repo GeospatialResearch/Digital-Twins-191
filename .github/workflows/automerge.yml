@@ -8,7 +8,7 @@ on:
 
 env:
   # replace "github_username" with your GitHub username hello
-  # replace "github.com/username/repo.git" with your GitHub repo path
+  # replace "github.com/username/repo.git" with your GitHub repo path hi2
   # do NOT replace ${{secrets.GITHUB_TOKEN}}, GitHub will take care of it
   MY_REPO: https://GeospatialResearch:${{secrets.GITHUB_TOKEN}}@github.com/GeospatialResearch/Digital-Twins-191.git
 
